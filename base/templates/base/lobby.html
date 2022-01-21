@@ -1,6 +1,17 @@
-{% extends 'base/main.html' %}
+{% extends 'base/main.html' %} 
+{% load static %} 
 
-{% block content %}
-   Lobby
+{% block content %} 
+
+<main>
+    <section id="form-container">
+        <img id="logo" src="{% static 'images/logo-chat.png' %}" alt="">
+
+        <div>
+            <h1 class="heading">Welcome to Frichat</h1>
+            
+        </div>
+    </section>
+</main>
 
 {% endblock content %}
