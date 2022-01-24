@@ -57,4 +57,9 @@ body {
     
 }
 
+.video-player {
+    height: 100%;
+    width: 100%;
+}
+
 /* Room editing start here */
