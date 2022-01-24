@@ -1,5 +1,6 @@
 body {
     background-color: rgb(0, 0, 0);
+    
 }
 
 /* Lobby Editing Strat here  */
@@ -31,6 +32,29 @@ body {
 
 
 /* Room editing start here */
+#room-name-wrapper {
+    color: white;
+}
 
+#video-streams {
+    display: flex;
+    flex-wrap: wrap;
+    height: 85vh;
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+.video-container {
+    flex-basis: 500px;
+    flex-grow: 1;
+    max-height: 100%;
+    min-height: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: white;
+    
+}
 
 /* Room editing start here */
