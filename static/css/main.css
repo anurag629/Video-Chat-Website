@@ -40,13 +40,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 85vh;
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 10px;
     
 }
 
 .video-container {
-    flex-basis: 500px;
+    flex-basis:80%;
     flex-grow: 1;
     max-height: 100%;
     min-height: 350px;
@@ -58,8 +60,42 @@ body {
 }
 
 .video-player {
-    height: 80%;
-    width: 80%;
+    height: 97%;
+    width: 100%;
+    border-radius: 15px;
 }
 
 /* Room editing start here */
+
+
+/* Room Styling Control Start here */
+
+#controls-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 1em;
+    position: fixed;
+    bottom: 45px;
+}
+
+.control-icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#leave-btn {
+    background-color: rgb(179, 0, 0);
+}
+
+#camera-btn {
+    background-color: white;
+}
+
+#mic-btn {
+    background-color: white;
+}
+/* Room Styling Control End here */
